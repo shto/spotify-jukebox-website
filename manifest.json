@@ -1,0 +1,14 @@
+{
+	"BundleType": "Application",
+	"AppIcon": {
+	},
+	"AppName": {
+		"en": "Juke Box"
+	},
+	"SupportedLanguages": [
+		"en"
+	],
+	"RequiredPermissions": [
+		"https://api.parse.com/*"
+	]
+}
