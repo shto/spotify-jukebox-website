@@ -1,14 +1,19 @@
 {
-	"BundleType": "Application",
-	"AppIcon": {
+	"AppDescription": {
+		"en": "A JukeBox player to used at parties."
 	},
 	"AppName": {
 		"en": "Juke Box"
 	},
+	"BundleIdentifier": "jukebox",
+	"BundleType": "Application",
+	"BundleVersion": "0.1",
+	"RequiredInterface": 1,
+	"RequiredPermissions": [
+		"https://api.parse.com/*",
+		"https://api.parse.com/1/classes/JukeBox/*"
+	],
 	"SupportedLanguages": [
 		"en"
-	],
-	"RequiredPermissions": [
-		"https://api.parse.com/*"
 	]
 }
