@@ -11,7 +11,8 @@
 	"RequiredInterface": 1,
 	"RequiredPermissions": [
 		"https://api.parse.com/*",
-		"https://api.parse.com/1/classes/JukeBox/*"
+		"https://api.parse.com/1/classes/JukeBox/*",
+		"http://www.parsecdn.com/js/*"
 	],
 	"SupportedLanguages": [
 		"en"

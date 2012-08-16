@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<script type="text/javascript" src="javascript/jquery.js"></script>
+		<script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.0.0.min.js"></script>
+		<script type="text/javascript" charset="utf-8" src="javascript/jquery.cookie.js"></script>
+		<script type="text/javascript" charset="utf-8" src="javascript/facebook_auth.js"></script>
+		<script type="text/javascript" charset="utf-8" src="javascript/jukebox.js"></script>
+		<link rel="stylesheet" href="css/jukebox.css">
+		<title>Juke Box</title>
+	</head>
+	<body>
+		<h1 id="jukebox_room_name"></h1>
+		<p>People will be able to join this jukebox with this ID: <span id="jukebox_number"></span></p>
+		
+		<p>
+			This room will expire on the xx-xx-xxxx (date here). But you can keep this room by
+			logging in with Facebook.
+		</p>
+		<img src="images/fb-login.png" id="fb-login" />
+		<div id="status">
+			<p>If you've successfully authenticated with Facebook, this should be your access token: </p>
+		</div>
+		
+		<div id="container_now_playing">
+			<strong>Now Playing:<br></strong>
+			<div id="now_playing"></div>
+		</div>
+		
+		<br/>
+		
+		<div id="container_the_queue">
+			<strong>The Queue:<br></strong>
+			<div id="queue_container"></div>
+		</div>
+		
+		<br><br>
+		
+		<button type="button" onclick="forgetThisJukeBox()">Forget about this Juke Box</button>
+	</body>
+</html>

@@ -1,24 +1,23 @@
 <html>
 	<head>
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script type="text/javascript" src="javascript/jquery.js"></script>
 		<script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.0.0.min.js"></script>
 		<script type="text/javascript" charset="utf-8" src="javascript/geolocation.js"></script>
-		<script type="text/javascript" charset="utf-8" src="javascript/jukebox.js"></script>
-		</script>
+		<script type="text/javascript" charset="utf-8" src="javascript/jquery.cookie.js"></script>
+		<script type="text/javascript" charset="utf-8" src="javascript/index.js"></script>
 		<link rel="stylesheet" href="css/jukebox.css">
 		<title>Juke Box</title>
 	</head>
 	<body>
 		<h1>Juke Box</h1>
-		<button type="button" onclick="createNewJukeBox()">Make new room</button>
+		<div id="container_create_new_jukebox">
+			<div>
+				There doesn't seem to be any jukebox associated with this PC.
+				But creating a room is just as easy as clicking on the following button.
+			</div>
+			<input type="text" name="jukeBoxName" id="jukeBoxName_id"/>
+			<button type="button" onclick="createNewJukeBox()">Make new room</button>
+		</div>
 		<br/>
-		
-		<strong>Now Playing:<br></strong>
-		<div id="now_playing"></div>
-		
-		<br/>
-		
-		<strong>The Queue:<br></strong>
-		<div id="queue_container"></div>
 	</body>
 </html>
