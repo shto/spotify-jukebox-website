@@ -8,7 +8,7 @@ function initializeFacebookAuth()
 	 * More info here: http://developers.facebook.com/docs/authentication/permissions/ 
 	 */
 	var permissions = ['user_about_me'];
-	var app_id = '407784502598444';
+	var app_id = '';
 	var fbButtonHTML = document.getElementById('fb-login');
 	
 	fbButtonHTML.addEventListener('click', authFB);

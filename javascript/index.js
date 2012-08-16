@@ -9,7 +9,7 @@ $(document).ready(function() {
 	$("#container_create_new_jukebox").hide();
 			
 	// 1. Initialize Parse
-	Parse.initialize("L6g7AozXjr5TQ06YtuTXjSs15NZwfYiRnDnaeAn9","hJJZ0klmj1z4VRXlasl6ctAoHvTQcqqi8CTnf7gm");
+	Parse.initialize("KEY1","KEY2");
 	
 	// 2. Check for existing roomParseID cookie. If it exists, get room Parse ID
 	var roomParseID = $.cookie(K_COOKIE_ROOMPARSEID);
